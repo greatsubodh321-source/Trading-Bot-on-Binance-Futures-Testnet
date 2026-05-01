@@ -1,0 +1,4 @@
+2026-05-01 12:40:43,783 | ERROR | CLI | Input Validation Error: Invalid order type. Must be 'MARKET' or 'LIMIT'.
+2026-05-01 12:41:01,797 | INFO | CLI | Initializing Binance Testnet Client...
+2026-05-01 12:41:01,798 | ERROR | bot.client | Missing Binance API credentials. Please check your .env file.
+2026-05-01 12:41:01,799 | ERROR | CLI | Input Validation Error: Missing Binance API credentials. Please check your .env file.

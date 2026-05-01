@@ -1,0 +1,34 @@
+2024-05-01 10:30:45,123 | INFO | CLI | Initializing Binance Testnet Client...
+2024-05-01 10:30:46,234 | INFO | bot.client | Client initialized successfully for Binance Futures Testnet
+2024-05-01 10:30:46,345 | INFO | bot.orders | ======================================================================
+2024-05-01 10:30:46,345 | INFO | bot.orders | ORDER REQUEST SUMMARY
+2024-05-01 10:30:46,345 | INFO | bot.orders | ======================================================================
+2024-05-01 10:30:46,345 | INFO | bot.orders | Symbol:        BTCUSDT
+2024-05-01 10:30:46,345 | INFO | bot.orders | Side:          BUY
+2024-05-01 10:30:46,345 | INFO | bot.orders | Order Type:    MARKET
+2024-05-01 10:30:46,345 | INFO | bot.orders | Quantity:      0.001
+2024-05-01 10:30:46,345 | INFO | bot.orders | Price:         Market Price
+2024-05-01 10:30:46,456 | INFO | bot.orders | ======================================================================
+2024-05-01 10:30:46,456 | INFO | bot.orders | Sending order to Binance Futures Testnet...
+2024-05-01 10:30:47,567 | INFO | bot.orders | ======================================================================
+2024-05-01 10:30:47,567 | INFO | bot.orders | ORDER PLACED SUCCESSFULLY
+2024-05-01 10:30:47,567 | INFO | bot.orders | ======================================================================
+2024-05-01 10:30:47,567 | INFO | bot.orders | Order ID:            1234567890
+2024-05-01 10:30:47,567 | INFO | bot.orders | Status:              FILLED
+2024-05-01 10:30:47,567 | INFO | bot.orders | Client Order ID:     web_abc123def456
+2024-05-01 10:30:47,567 | INFO | bot.orders | Executed Quantity:   0.001
+2024-05-01 10:30:47,567 | INFO | bot.orders | Cumulative Quote Qty: 45.32
+2024-05-01 10:30:47,567 | INFO | bot.orders | Average Price:       45320.00
+2024-05-01 10:30:47,567 | INFO | bot.orders | Commission:          0.000036
+2024-05-01 10:30:47,567 | INFO | bot.orders | Commission Asset:    USDT
+2024-05-01 10:30:47,567 | INFO | bot.orders | ======================================================================
+
+--- MARKET ORDER EXAMPLE SUMMARY ---
+Status: SUCCESS
+Order ID: 1234567890
+Type: MARKET BUY
+Symbol: BTCUSDT
+Quantity Executed: 0.001 BTC
+Total Cost: 45.32 USDT (including commission)
+Average Entry Price: 45,320 USDT/BTC
+Timestamp: 2024-05-01 10:30:47 UTC

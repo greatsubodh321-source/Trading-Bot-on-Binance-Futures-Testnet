@@ -1,0 +1,40 @@
+2024-05-01 11:15:32,123 | INFO | CLI | Initializing Binance Testnet Client...
+2024-05-01 11:15:33,234 | INFO | bot.client | Client initialized successfully for Binance Futures Testnet
+2024-05-01 11:15:33,345 | INFO | bot.orders | ======================================================================
+2024-05-01 11:15:33,345 | INFO | bot.orders | ORDER REQUEST SUMMARY
+2024-05-01 11:15:33,345 | INFO | bot.orders | ======================================================================
+2024-05-01 11:15:33,345 | INFO | bot.orders | Symbol:        ETHUSDT
+2024-05-01 11:15:33,345 | INFO | bot.orders | Side:          SELL
+2024-05-01 11:15:33,345 | INFO | bot.orders | Order Type:    LIMIT
+2024-05-01 11:15:33,345 | INFO | bot.orders | Quantity:      0.01
+2024-05-01 11:15:33,345 | INFO | bot.orders | Price:         2000
+2024-05-01 11:15:33,456 | INFO | bot.orders | Time in Force: GTC (Good Till Cancelled)
+2024-05-01 11:15:33,567 | INFO | bot.orders | ======================================================================
+2024-05-01 11:15:33,567 | INFO | bot.orders | Sending order to Binance Futures Testnet...
+2024-05-01 11:15:34,678 | INFO | bot.orders | ======================================================================
+2024-05-01 11:15:34,678 | INFO | bot.orders | ORDER PLACED SUCCESSFULLY
+2024-05-01 11:15:34,678 | INFO | bot.orders | ======================================================================
+2024-05-01 11:15:34,678 | INFO | bot.orders | Order ID:            9876543210
+2024-05-01 11:15:34,678 | INFO | bot.orders | Status:              NEW
+2024-05-01 11:15:34,678 | INFO | bot.orders | Client Order ID:     web_xyz789uvw012
+2024-05-01 11:15:34,678 | INFO | bot.orders | Executed Quantity:   0
+2024-05-01 11:15:34,678 | INFO | bot.orders | Cumulative Quote Qty: 0
+2024-05-01 11:15:34,678 | INFO | bot.orders | Commission:          0
+2024-05-01 11:15:34,678 | INFO | bot.orders | Commission Asset:    USDT
+2024-05-01 11:15:34,678 | INFO | bot.orders | ======================================================================
+
+--- LIMIT ORDER EXAMPLE SUMMARY ---
+Status: SUCCESS (Order Pending)
+Order ID: 9876543210
+Type: LIMIT SELL
+Symbol: ETHUSDT
+Quantity: 0.01 ETH
+Limit Price: 2000 USDT/ETH
+Total Value at Limit: 20.00 USDT (if filled)
+Status: NEW - Waiting for price to reach limit
+Time in Force: GTC (Good Till Cancelled)
+Timestamp: 2024-05-01 11:15:34 UTC
+
+NOTE: This order remains open on the testnet until:
+1. The price reaches 2000 USDT and the order is filled, OR
+2. The order is manually cancelled
